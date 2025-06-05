@@ -18,3 +18,5 @@ This repository provides a small Python script that automates mouse clicks based
    When prompted with `Start Ascendance? (Y/N):`, press `Y` to start or `N` to abort.
 
 The script holds down the **Shift** key, searches for the provided images on the screen, and clicks their centers when found.
+
+The detection accuracy can be tuned in `ascendance.py` by adjusting the `CONFIDENCE` variable (default `0.9`).

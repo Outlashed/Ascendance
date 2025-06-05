@@ -1,9 +1,11 @@
 import sys
 import pyautogui
 
+CONFIDENCE = 0.9
+
 
 def locate_and_click(image_path):
-    location = pyautogui.locateOnScreen(image_path, confidence=0.8)
+    location = pyautogui.locateOnScreen(image_path, confidence=CONFIDENCE)
     if location is None:
         print(f"Unable to locate {image_path} on screen.")
         return False
