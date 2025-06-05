@@ -1,4 +1,5 @@
 # Ascendance
+# Ascendance
 
 This repository provides a small Python script that automates mouse clicks based on image recognition.
 
