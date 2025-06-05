@@ -16,7 +16,7 @@ This repository provides a small Python script that automates mouse clicks based
    ```bash
    python3 start.py
    ```
-   A new terminal window will ask `Start Ascendance? (Y/N):`. Press `Y` to start or `N` to abort.
+   The terminal will warn you to stash your equipped rings and amulet before proceeding and ask for confirmation. After confirming, you will be prompted `Ready to ascend!? (Y/N)`.
    If no terminal emulator is available, `start.py` will run `ascendance.py` directly in the current window.
 
 The script holds down the **Shift** key, searches for the provided images on the screen, and clicks their centers when found.
